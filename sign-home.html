@@ -943,6 +943,11 @@
 	  }
 	  
 	  window.addEventListener('load', preload);
+		setTimeout(() => {
+    const preloader = document.querySelector('.c-preload');
+    preloader.style.display = 'none'; // Hides the preloader after 2 seconds
+  }, 4500); // Adjust this time to match your animation duration
+	
 	  
 	  </script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>

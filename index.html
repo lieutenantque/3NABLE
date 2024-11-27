@@ -20,6 +20,7 @@
 	z-index: 100;
 	width: 100%;
 	height: 100%;
+	z-index:99999999999999999999;
   }
   
   .c-preload__inner {
@@ -940,6 +941,7 @@
     const preloader = document.querySelector('.c-preload');
     preloader.style.display = 'none'; // Hides the preloader after 2 seconds
   }, 4500); // Adjust this time to match your animation duration
+	  
 	  </script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
